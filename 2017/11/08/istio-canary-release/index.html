@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-    <meta property="og:site_name" content="Huabing Blog">
+    <meta property="og:site_name" content="Mabo Blog">
     <meta property="og:type" content="article">
 
     
@@ -31,10 +31,10 @@
     
     
 
-    <meta name="keyword"  content="马博, zhaohuabing, Zhaohuabing, , 马博的网络日志, 马博的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
+    <meta name="keyword"  content="马博, zhaoMabo, ZhaoMabo, , 马博的网络日志, 马博的博客, ZhaoMabo Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>采用Istio实现灰度发布(金丝雀发布) | 马博的博客 | Zhaohuabing Blog</title>
+    <title>采用Istio实现灰度发布(金丝雀发布) | 马博的博客 | ZhaoMabo Blog</title>
 
     <link rel="canonical" href="/2017/11/08/istio-canary-release/">
 
@@ -88,7 +88,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Huabing Blog</a>
+            <a class="navbar-brand" href="/">Mabo Blog</a>
         </div>
 
         
@@ -251,7 +251,7 @@
 <h2 id="操作步骤">操作步骤</h2>
 <p>下面采用Istion自带的BookinfoInfo示例程序来试验灰度发布的流程。</p>
 <h3 id="测试环境安装">测试环境安装</h3>
-<p>首先参考<a href="http://zhaohuabing.com/2017/11/04/istio-install_and_example/">手把手教你从零搭建Istio及Bookinfo示例程序</a>安装Kubernetes及Istio控制面。</p>
+<p>首先参考<a href="http://zhaoMabo.com/2017/11/04/istio-install_and_example/">手把手教你从零搭建Istio及Bookinfo示例程序</a>安装Kubernetes及Istio控制面。</p>
 <p>因为本试验并不需要安装全部3个版本的reviews服务，因此如果已经安装了该应用，先采用下面的命令卸载。</p>
 <pre tabindex="0"><code>istio-0.2.10/samples/bookinfo/kube/cleanup.sh
 </code></pre><h3 id="部署v1版本的服务">部署V1版本的服务</h3>
@@ -472,7 +472,7 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
 <div class="zs-modal-box">
 	<div class="zs-modal-head">
 		<button type="button" class="close">×</button>
-		<span class="author"><a href="https://zhaohuabing.com"><img src="/img/favicon.png" />Huabing Blog</a></span>
+		<span class="author"><a href="https://zhaoMabo.com"><img src="/img/favicon.png" />Mabo Blog</a></span>
         
 	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
 		
@@ -708,7 +708,7 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
             
            
                    <li>
-                       <a href='' rel="alternate" type="application/rss+xml" title="Huabing Blog" >
+                       <a href='' rel="alternate" type="application/rss+xml" title="Mabo Blog" >
                            <span class="fa-stack fa-lg">
                                <i class="fas fa-circle fa-stack-2x"></i>
                                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
@@ -718,13 +718,13 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
             
              </ul>
 		<p class="copyright text-muted">
-                    Copyright &copy; Huabing Blog 2023
+                    Copyright &copy; Mabo Blog 2023
                     <br>
-                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaoMabo.com">Mabo</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                        src="https://ghbtns.com/github-btn.html?user=zhaoMabo&repo=hugo-theme-cleanwhite&type=star&count=true" >
                     </iframe>
                 </p>
             </div>
